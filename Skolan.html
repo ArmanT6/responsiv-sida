@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolan</title>
+    <style>
+        body {
+            background-color: #f8b6b6;
+            text-align: center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            background: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #d37b7b;
+            cursor: pointer;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            display: inline-block;
+        }
+        .content {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 18px;
+            color: black;
+            text-align: left;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .info-box {
+            background: white;
+            padding: 20px;
+            border: 2px solid black;
+            text-align: left;
+            font-size: 18px;
+            color: #d37b7b;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .school-logo img {
+            width: 150px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .table-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .table {
+            background: white;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 30%;
+            font-size: 16px;
+            color: black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .table h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .table p {
+            margin: 5px 0;
+        }
+        @media only screen and (max-width: 599px) {
+            .nav {
+                flex-direction: column; 
+                gap: 10px; 
+            }
+        
+            .nav a {
+                padding: 8px 16px; 
+                font-size: 14px; 
+            }
+            .content {
+                width: 90%; 
+                font-size: 14px; 
+                padding: 10px; 
+                background-color: white;
+                border: 2px solid black;
+                margin-top: 10px; 
+            }
+            .container {
+                flex-direction: column; 
+                gap: 20px; 
+            }
+            .school-logo img {
+                width: 100px; 
+            }
+            .table-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .table {
+                width: 95%;
+                font-size: 14px;
+            }
+            .table h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Skolan</h1>
+    <div class="nav">
+        <a href="Start.html">Startsida</a>
+        <a href="Ommig.html">Om mig</a>
+        <a href="Intresse.html">Intresse</a>
+        <a href="Praktik.html">Erfarenhet</a>
+    </div>
+    
+    <div class="container">
+        <div class="content">
+            <p>Jag studerar teknikprogrammet på NTI Gymnasiet Kronhus i Göteborg. Jag fokuserar mest på ämnen som jag tänker använda i framtiden när jag arbetar. Dessa ämnen är matte, programmering, tillämpad programmering, webbutveckling, dator och nätverksteknik och AI. NTI Gymnasiet Kronhus erbjuder en bred utbildning med olika program, och det är anledningen jag valde just denna skolan.</p>
+        </div>
+        <div class="school-logo">
+            <img src="ntilogo.jpg" alt="NTI Gymnasiet" id="bilden">
+        </div>
+    </div>
+    <div class="table-container">
+        <div class="table">
+            <h2>Årskurs 1</h2>
+            <p>Matte 1</p>
+            <p>Matte 2</p>
+            <p>Historia</p>
+            <p>Engelska 6</p>
+            <p>Samhällskunskap</p>
+            <p>Religion</p>
+            <p>Idrott och Hälsa</p>
+            <p>Svenska 1</p>
+            <p>Teknik</p>
+        </div>
+        <div class="table">
+            <h2>Årskurs 2</h2>
+            <p>Fysik 1</p>
+            <p>Matte 3</p>
+            <p>Programmering 1</p>
+            <p>Engelska 6</p>
+            <p>Webbutveckling 1</p>
+            <p>Tillämpad programmering</p>
+            <p>Idrott och Hälsa</p>
+            <p>Svenska 2</p>
+            <p>Dator och Nätverksteknik</p>
+        </div>
+        <div class="table">
+            <h2>Årskurs 3</h2>
+            <p>Fysik 2</p>
+            <p>Matte 4</p>
+            <p>Programmering 2</p>
+            <p>Engelska 7</p>
+            <p>Webbutveckling 2</p>
+            <p>AI</p>
+            <p>Matte 5</p>
+            <p>Svenska 3</p>
+            <p>Dator och Nätverksteknik</p>
+        </div>
+    </div>
+</body>
+</html>

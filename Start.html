@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt CV</title>
+    <style>
+        body {
+            background-color: #f8b6b6;
+            text-align: center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 50px;
+        }
+        .cirkel {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #d37b7b;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .fråga {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 599px) {
+            .container {
+                display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 50px;
+            }
+            .cirkel {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: #d37b7b;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .fråga {
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            margin-top: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        }
+        @media only screen and (max-width: 599px){
+            .container {
+                display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 50px;
+            flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mitt Cv</h1>
+    <div class="container">
+        <div class="item">
+            <a href="Ommig.html"><div class="cirkel">Om mig</div></a>
+            <a href="Fråga1.html"><div class="fråga">?</div></a>
+        </div>
+        <div class="item">
+            <a href="Skolan.html"><div class="cirkel">Skolan</div></a>
+            <a href="fråga2.html"><div class="fråga">?</div></a>
+        </div>
+        <div class="item">
+            <a href="Intresse.html"><div class="cirkel">Intresse</div></a>
+            <a href="fråga3.html"><div class="fråga">?</div></a>
+        </div>
+        <div class="item">
+            <a href="Praktik.html"><div class="cirkel">Praktik</div></a>
+            <a href="fråga4.html"><div class="fråga">?</div></a>
+        </div>
+    </div>
+</body>
+</html>

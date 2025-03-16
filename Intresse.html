@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intresse</title>
+    <style>
+        body {
+            background-color: #f8b6b6;
+            text-align: center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            background: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #d37b7b;
+            cursor: pointer;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            display: inline-block;
+        }
+        .content {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #d37b7b;
+            text-align: left;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .text-box {
+            background: white;
+            padding: 20px;
+            border: 2px solid black;
+            text-align: left;
+            font-size: 18px;
+            color: black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            width: 40%;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+        }
+        .feedback-box {
+            background: white;
+            padding: 20px;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 18px;
+            color: black;
+            width: 40%;
+            margin: 20px auto;
+        }
+        .stars {
+            font-size: 24px;
+            color: gold;
+        }
+        textarea {
+            width: 90%;
+            height: 50px;
+            margin-top: 10px;
+            border: 1px solid black;
+            padding: 5px;
+            font-family: inherit;
+        }
+
+        /* Ändringar för skärmar mindre än 599px */
+        @media only screen and (max-width: 599px) {
+            .nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .nav a {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+
+            .content {
+                width: 90%;
+                font-size: 14px;
+            }
+
+            .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .text-box {
+                width: 90%;
+                font-size: 14px;
+            }
+
+            .image-container img {
+                width: 90%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .feedback-box {
+                width: 90%;
+                font-size: 14px;
+            }
+
+            textarea {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Intresse</h1>
+    <div class="nav">
+        <a href="Start.html">Startsida</a>
+        <a href="Ommig.html">Om mig</a>
+        <a href="Skolan.html">Skolan</a>
+        <a href="Praktik.html">Erfarenhet</a>
+    </div>
+
+    <div class="container">
+        <div class="text-box">
+            <h2>Hobby</h2>
+            <p>Mitt hobby är definitivt fotboll. Jag har tyckt om fotboll sen jag var 8 år gammal och fortsätter idag. Jag har inte tänkt på fotboll som ett jobb i framtiden, som sagt det är bara en hobby jag har. Jag tycker även om andra sporter som basketboll, tennis och paddel, fast har inte börjat i ett officiellt lag tills idag.</p>
+        </div>
+        <div class="image-container">
+            <img src="fotbollicon.jpg" alt="Fotboll">
+            <img src="gymicon.jpg" alt="Gym">
+        </div>
+    </div>
+
+    <div class="text-box" style="margin: 20px auto;">
+        <h2>Fritid</h2>
+        <p>På min fritid försöker jag att hålla mig till gymmet och fotboll. Hemma försöker jag utveckla mina programmeringskunskaper.</p>
+        <p>För att kunna få ett jobb i framtiden försöker jag lägga så mycket tid som möjligt på att programmera och skapa webbsidor eftersom det är det jag har tänkt och jobba med.</p>
+    </div>
+
+    <div class="feedback-box">
+        <h2>Feedback</h2>
+        <p>Hur bra var mitt cv?</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Hur bra var innehållet?</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Något mer du vill lägga till?</p>
+        <textarea placeholder="Skriv din kommentar här..."></textarea>
+    </div>
+
+</body>
+</html>

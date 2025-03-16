@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erfarenheter</title>
+    <style>
+        body {
+            background-color: #f4a7a7;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 50px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .nav {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            background: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #d37b7b;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content {
+            width: 65%;
+        }
+        .erfarenheter {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            color: black;
+
+        }
+        .experience img {
+            width: 250px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .sidebar {
+            width: 30%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            border-color: black;
+            border: 2px;
+            color: black;
+        }
+        .arbetsplatser2 {
+            display: none; 
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid black;
+            color: black;
+            margin-bottom: 20px;
+            width: 95%;
+        }
+        @media only screen and (max-width: 650px) {
+            .sidebar {
+                display: none;
+            }
+            .arbetsplatser2 {
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 650px) {
+            .nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .nav a {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 36px;
+                text-align: center;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .content {
+                width: 100%;
+                font-size: 17px;
+            }
+
+            .erfarenheter {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 30px;
+
+            }
+
+            .experience img {
+                width: 150px;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Erfarenheter</h1>
+    <div class="nav">
+        <a href="Start.html">Startsida</a>
+        <a href="Ommig.html">Om mig</a>
+        <a href="Skolan.html">Skolan</a>
+        <a href="Intresse.html">Intresse</a>
+    </div>
+    <div class="arbetsplatser2">
+        <h2>Tidigare Arbetsplatser</h2>
+        <ul>
+            <li>Jobbat hos Nordic Wellness under sommaren 2022</li>
+            <li>Hjälptränare hos bollklubben Heid under sommaren 2023</li>
+            <li>Jobbat hos Liseberg från början av april till slutet av november 2024</li>
+            <li>Jobbat hos Hemköp under juli 2023</li>
+            <li>Jobbat hos Pressbyrån under höstlovet 2023</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="erfarenheter">
+                <img src="nordicwellnessicon.png">
+                <p>Att arbeta på Nordic Wellness gav mig erfarenhet i kundservice, lagsarbete och försäljning. 
+                Samarbete med kollegor bidrar till ett smidigt arbete och en positiv arbetsmiljö. Jag interagerar med medlemmar och 
+                klienter medan jag bygger positiva förhållanden.</p>
+            </div>
+            <div class="erfarenheter">
+                <img src="lisebergicon.jpg">
+                <p>Att arbeta hos Liseberg gav mig erfarenheter i teamarbete, kundservice och eventhantering. 
+                Jag lär om olika attraktioner, hur de underhålls och funkar. Samarbete med kollegor bidrar till en positiv arbetsmiljö vilket jag värdesätter.</p>
+            </div>
+            <div class="erfarenheter">
+                <img src="volleybollico.jpg">
+                <p>Att sommarjobba som en hjälptränare hos ett volleybollag gav mig erfarenhet i träningsledning, 
+                teamarbete och kundservice. Jag har lärt mig olika träningsmetoder och program. Dessutom har jag fått möjligheten att delta i planeringen av träningar.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Tidigare Arbetsplatser</h2>
+            <ul>
+                <li>Jobbat hos Nordic Wellness under sommaren 2022</li>
+                <li>Hjälptränare hos bollklubben Heid under sommaren 2023</li>
+                <li>Jobbat hos Liseberg från början av april till slutet av november 2024</li>
+                <li>Jobbat hos Hemköp under juli 2023</li>
+                <li>Jobbat hos Pressbyrån under höstlovet 2023</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
